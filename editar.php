@@ -16,7 +16,7 @@
         $nome = $_POST['nome'];
         $idade = $_POST['idade'];
         $altura = $_POST['altura'];
-        $pais = $_POST['nacionalidade'];
+        $pais = $_POST['pais'];
         $profissao = $_POST['profissao'];
 
         // vtualizar o registro no banco de dados
@@ -24,7 +24,7 @@
                     nome = '$nome', 
                     idade = $idade, 
                     altura = $altura, 
-                    nacionalidade = '$pais', 
+                    pais = '$pais', 
                     profissao = '$profissao' 
                 WHERE id = $id";
 
@@ -49,7 +49,7 @@
     $nome = $resultData['nome'];
     $idade = $resultData['idade'];
     $altura = $resultData['altura'];
-    $pais = $resultData['nacionalidade'];
+    $pais = $resultData['pais'];
     $profissao = $resultData['profissao'];
 ?>
     

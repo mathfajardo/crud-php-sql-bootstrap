@@ -43,7 +43,7 @@
             </div>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">País</label>
-              <input type="text" class="form-control" name="nacionalidade" required>
+              <input type="text" class="form-control" name="pais" required>
             </div>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">Profissão</label>

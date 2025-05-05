@@ -16,7 +16,7 @@
    $nome = $resultData['nome'];
    $idade = $resultData['idade'];
    $altura = $resultData['altura'];
-   $pais = $resultData['nacionalidade'];
+   $pais = $resultData['pais'];
    $profissao = $resultData['profissao'];
 ?>
 
@@ -65,7 +65,7 @@
             </div>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">País</label>
-              <input type="text" class="form-control" name="nacionalidade" value="<?php echo $pais; ?>" required>
+              <input type="text" class="form-control" name="pais" value="<?php echo $pais; ?>" required>
             </div>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">Profissão</label>
