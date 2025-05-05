@@ -6,7 +6,7 @@ USE sistema_crud;
 
 -- criando a tabela do sistema
 CREATE TABLE IF NOT EXISTS dados (
-	id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(50),
     idade INT,
     altura DECIMAL(3,2),
