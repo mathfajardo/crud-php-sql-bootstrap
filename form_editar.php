@@ -1,4 +1,4 @@
-<?php
+i<?php
     ini_set('display_errors', 1);
     error_reporting(E_ALL);
     // adicionar conexão
@@ -72,7 +72,7 @@
               <input type="text" class="form-control" name="profissao" value="<?php echo $profissao; ?>" required>
             </div>
             <input type="hidden" name="id" value="<?php echo $id; ?>">
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Enviar</button>
           </form>
       </div>
     </div>
