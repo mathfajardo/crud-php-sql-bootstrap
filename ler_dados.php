@@ -57,7 +57,7 @@
                               echo "<td>" . $row['nome'] . "</td>";
                               echo "<td>" . $row['idade'] . "</td>";
                               echo "<td>" . $row['altura'] . "</td>";
-                              echo "<td>" . $row['nacionalidade'] . "</td>";
+                              echo "<td>" . $row['pais'] . "</td>";
                               echo "<td>" . $row['profissao'] . "</td>";
                               echo "<td>
                                       <a href=\"form_editar.php?id=$row[id]\" class=\"btn btn-outline-primary sm\">Editar</a>

@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS dados (
     nome VARCHAR(50),
     idade INT,
     altura DECIMAL(3,2),
-    nacionalidade VARCHAR(50),
+    pais VARCHAR(50),
     profissao VARCHAR(50)
 );
 

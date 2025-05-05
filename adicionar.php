@@ -6,10 +6,10 @@
     $nome = $_POST['nome'];
     $idade = $_POST['idade'];
     $altura = $_POST['altura'];
-    $nacionalidade = $_POST['nacionalidade'];
+    $pais = $_POST['pais'];
     $profissao = $_POST['profissao'];
     // criando a query
-    $sql = "INSERT INTO dados (nome, idade, altura, nacionalidade, profissao) VALUES ('$nome', '$idade', '$altura', '$nacionalidade', '$profissao')";
+    $sql = "INSERT INTO dados (nome, idade, altura, pais, profissao) VALUES ('$nome', '$idade', '$altura', '$pais', '$profissao')";
     // executando a query
     $query = mysqli_query($conn, $sql);
     // verificando se a query foi executada com sucesso
