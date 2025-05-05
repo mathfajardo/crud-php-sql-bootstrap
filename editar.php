@@ -18,6 +18,18 @@
         $altura = $_POST['altura'];
         $pais = $_POST['pais'];
         $profissao = $_POST['profissao'];
+        // tirando espaços antes e depois da string
+        $nome = trim($nome);
+        $idade = trim($idade);
+        $altura = trim($altura);
+        $pais = trim($pais);
+        $profissao = trim($profissao);
+        // protejendo contra SQL Injection
+        $nome = mysqli_real_escape_string($conn, $nome);
+        $idade = mysqli_real_escape_string($conn, $idade);
+        $altura = mysqli_real_escape_string($conn, $altura);
+        $pais = mysqli_real_escape_string($conn, $pais);
+        $profissao = mysqli_real_escape_string($conn, $profissao);
 
         // vtualizar o registro no banco de dados
         $sql = "UPDATE dados SET 
