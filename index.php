@@ -49,7 +49,7 @@
               <label for="exampleInputPassword1" class="form-label">Profissão</label>
               <input type="text" class="form-control" name="profissao" required>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Enviar</button>
           </form>
       </div>
     </div>
